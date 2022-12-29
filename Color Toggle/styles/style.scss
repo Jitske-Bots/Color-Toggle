@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hamburger-menu {
+    width: 160px;
+    #menu-img {
+        width: 60px;
+    }
+    #menu {
+        list-style: none;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .item {
+            width: 150px;
+            height: 30px;
+            padding-left: 10px;
+        }
+        #red {
+            background-color: red;
+        }
+        #green {
+            background-color: green;
+        }
+        #blue {
+            background-color: blue;
+        }
+        #yellow {
+            background-color: yellow;
+        }
+        #pink {
+            background-color: pink;
+        }
+
+    }
+}
+#color {
+    display: flex;
+    justify-content: center;
+}
+
+.invisible {
+    visibility: collapse;
+}
+.visible {
+    visibility: visible;
+}
+

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hamburger-menu {
+  width: 160px;
+}
+#hamburger-menu #menu-img {
+  width: 60px;
+}
+#hamburger-menu #menu {
+  list-style: none;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#hamburger-menu #menu .item {
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+}
+#hamburger-menu #menu #red {
+  background-color: red;
+}
+#hamburger-menu #menu #green {
+  background-color: green;
+}
+#hamburger-menu #menu #blue {
+  background-color: blue;
+}
+#hamburger-menu #menu #yellow {
+  background-color: yellow;
+}
+#hamburger-menu #menu #pink {
+  background-color: pink;
+}
+
+#color {
+  display: flex;
+  justify-content: center;
+}
+
+.invisible {
+  visibility: collapse;
+}
+
+.visible {
+  visibility: visible;
+}/*# sourceMappingURL=style.css.map */
